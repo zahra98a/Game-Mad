@@ -95,8 +95,8 @@ public class PlayScreen extends AppCompatActivity  implements SensorEventListene
                 highLimit = false;
             }
        // }
-      /*
-        for (int i = 0; i< arrayIndex; i++){
+
+       /* for (int i = 0; i< arrayIndex; i++){
         Log.d("game sequence", String.valueOf(gameSequence[i]));
             if (gameSequence[i] == arrayB[i]){
                 score =+ 4;
@@ -111,8 +111,8 @@ public class PlayScreen extends AppCompatActivity  implements SensorEventListene
                  G.putExtra("score", score);
                 startActivity(G);
                  }
-        }
-      */
+        }*/
+
     }
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
